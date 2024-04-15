@@ -1,5 +1,5 @@
-import { AddCategory } from './Components/AddCategory';
-import { GifGrid } from './Components/GifGrid';
+import { AddCategory } from './Components';
+import { GifGrid } from './Components';
 import { useState } from 'react';
 
 function App() {

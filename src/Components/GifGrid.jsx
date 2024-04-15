@@ -12,6 +12,9 @@ export const GifGrid = ({ category }) => {
 
     return (
         <>
+            {isLoading ? (
+                <h3 className='text-4xl text-gray-200 font-semibold text-center'>Loading...</h3>
+            ) : null}
             <h3 className='text-4xl text-gray-200 font-semibold text-center'>{category}</h3>
             <div className='flex justify-center gap-4 flex-wrap'>
                     {
